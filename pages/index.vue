@@ -19,8 +19,12 @@
       </h4>
     </section>
     <section class="mt-2">
-      <button class="mt-3 mr-1 btn btn-primary">See My Work</button>
-      <button class="mt-3 btn btn-secondary">Get In Touch</button>
+      <nuxt-link to="/portfolio" class="mt-3 mr-1 btn btn-primary"
+        >See My Work</nuxt-link
+      >
+      <nuxt-link to="/contact" class="mt-3 btn btn-secondary"
+        >Get In Touch</nuxt-link
+      >
     </section>
   </div>
 </template>

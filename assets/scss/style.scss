@@ -19,6 +19,22 @@ body {
   background: $bg-dark;
   font-family: $font-primary;
   color: $primary;
+  padding-bottom: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-title::after {
+  content: "";
+  background-color: $accent-dark;
+  display: block;
+  height: 2px;
+  width: 6em;
+  position: relative;
+  top: -2px;
+  margin-left: 15px;
 }
 
 // SECTION Page Layout
@@ -63,6 +79,17 @@ body {
 }
 
 // !SECTION End buttons
+
+// SECTION Cards
+
+.card {
+  background-color: $bg-light;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+// !SECTION End cards
 
 // !SECTION End components
 
@@ -111,6 +138,11 @@ h4,
 h5,
 .h5 {
   font-size: 1.5rem;
+  font-weight: 500;
+}
+h6,
+.h6 {
+  font-size: 1.25rem;
   font-weight: 500;
 }
 // !SECTION End Font and text colors
