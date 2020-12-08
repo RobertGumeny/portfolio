@@ -45,7 +45,6 @@ export default {
       ease: "power2.inOut",
       repeat: -1
     });
-
     let mainTL = gsap.timeline({ repeat: -1 });
     words.forEach(word => {
       let tl = gsap.timeline({

@@ -22,8 +22,9 @@ export default {
   padding: 0 1.1rem;
 }
 .logo {
-  padding: 6px;
+  padding: 8px;
   font-size: 2.5rem;
-  font-weight: bold;
+  border: 2.5px solid $accent-dark;
+  border-radius: 100%;
 }
 </style>

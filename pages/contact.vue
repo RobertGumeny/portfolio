@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="mt-3">Contact.</h1>
+    <h1 class="h2 mt-4 page-title">Get in Touch</h1>
   </div>
 </template>
 
