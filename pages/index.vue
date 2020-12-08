@@ -38,12 +38,7 @@ export default {
   mounted() {
     gsap.registerPlugin(TextPlugin);
     gsap.registerPlugin(CSSRulePlugin);
-    const words = [
-      "Web Designer.",
-      "Software Developer.",
-      "Avid Hiker.",
-      "Wine Enthusiast."
-    ];
+    const words = ["Designer.", "Developer.", "Hiker.", "Wine Enthusiast."];
     let cursor = gsap.to(".cursor", {
       opacity: 0,
       duration: 1,
