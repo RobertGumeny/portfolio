@@ -94,7 +94,9 @@ a {
 // !SECTION End components
 
 // SECTION Font and text colors
-
+.bold {
+  font-weight: bold;
+}
 .text-primary {
   color: $primary;
 }
@@ -103,8 +105,12 @@ a {
   color: $secondary;
 }
 
-.text-accent {
+.text-accent-dark {
   color: $accent-dark;
+}
+
+.text-accent-light {
+  color: $accent-light;
 }
 
 .font-primary {

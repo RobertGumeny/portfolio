@@ -1,6 +1,6 @@
 <template>
   <div class="mobile-nav-top">
-    <span class="logo text-accent font-primary">RG</span>
+    <span class="logo text-accent-dark font-primary">RG</span>
   </div>
 </template>
 
@@ -23,9 +23,7 @@ export default {
 }
 .logo {
   padding: 6px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  border: 2.25px solid $accent-dark;
-  border-radius: 15px;
 }
 </style>

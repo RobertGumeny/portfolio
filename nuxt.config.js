@@ -15,8 +15,8 @@ export default {
           "Robert is a web designer & developer who specializes in creating engaging, responsive, user-friendly websites and applications."
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
         type: "text/css",
@@ -48,7 +48,8 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
+    "nuxt-gsap"
   ],
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
