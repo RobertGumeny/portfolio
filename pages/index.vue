@@ -38,7 +38,12 @@ export default {
   mounted() {
     gsap.registerPlugin(TextPlugin);
     gsap.registerPlugin(CSSRulePlugin);
-    const words = ["Designer.", "Developer.", "Hiker.", "Wine Enthusiast."];
+    const words = [
+      "Web Designer.",
+      "Software Developer.",
+      "Avid Hiker.",
+      "Wine Enthusiast."
+    ];
     let cursor = gsap.to(".cursor", {
       opacity: 0,
       duration: 1,
@@ -48,8 +53,13 @@ export default {
 
     let mainTL = gsap.timeline({ repeat: -1 });
     words.forEach(word => {
-      let tl = gsap.timeline({ repeat: 1, yoyo: true, repeatDelay: 1 });
-      tl.to(".text-animated", { duration: 1.5, text: word });
+      let tl = gsap.timeline({
+        repeat: 1,
+        delay: 1,
+        yoyo: true,
+        repeatDelay: 1
+      });
+      tl.to(".text-animated", { duration: 2, text: word });
       mainTL.add(tl);
     });
   }
